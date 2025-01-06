@@ -1,13 +1,12 @@
 class Heroi:
     def __init__(self, nome, idade, tipo):
-        self.nome = nome
+        self.nome = nome.capitalize()
         self.idade = idade
-        self.tipo = tipo
+        self.tipo = tipo.capitalize()
 
     def atacar(self):
         arma = None
 
-    
         match self.tipo:
             case 'Mago':
                 arma = 'cajado'
@@ -17,6 +16,8 @@ class Heroi:
                 arma = 'artes marciais'
             case 'Ninja':
                 arma = 'shuriken'
+            case _:
+                arma = 'sua força'
 
         print(f'{self.tipo} atacou usando {arma}')
 
@@ -31,4 +32,5 @@ idade_heroi = int(input('Digite a idade do herói: '))
 tipo_heroi = input('Digite o tipo do herói: ')
 
 heroi = Heroi(nome_heroi, idade_heroi, tipo_heroi)
+print(f'{heroi.nome} é um {heroi.tipo} de {heroi.idade} anos')
 heroi.atacar()
