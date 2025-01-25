@@ -1,48 +1,38 @@
-Entendendo o Desafio
- 
-Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
- 
-Neste repositório, insira todos os links e arquivos necessários para seu projeto, seja um arquivo de banco de dados ou um link para o template no Figma.
- 
-Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no repositório dele para organizar suas alterações e evoluções mantendo uma referência direta ao código-fonte original.
- 
-Instruções para entrega
-# 3️⃣ Escrevendo as classes de um Jogo
+# 🦸‍♂️ Desafio: Escrevendo as Classes de um Jogo
 
-**O Que deve ser utilizado**
+## 📋 Descrição
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
-- Funções
-- Classes e Objetos
+Este projeto foi desenvolvido como parte da **Formação Lógica de Programação** da [DIO](https://www.dio.me/). O objetivo é criar uma classe genérica que represente um herói em uma aventura, utilizando conceitos fundamentais de programação orientada a objetos, como classes, objetos, propriedades e métodos.
 
-## Objetivo:
 
-Crie uma classe generica que represente um herói de uma aventura e que possua as seguintes propriedades:
+## 🛠️ Tecnologias Utilizadas
 
-- nome
-- idade
-- tipo (ex: guerreiro, mago, monge, ninja )
+- **JavaScript**: Linguagem de programação principal utilizada no projeto.
+- **Python**: Linguagem de programação alternativa utilizada no projeto.
 
-além disso, deve ter um método chamado atacar que deve atender os seguientes requisitos:
 
-- exibir a mensagem: "o {tipo} atacou usando {ataque}")
-- aonde o {tipo} deve ser concatenando o tipo que está na propriedade da classe
-- e no {ataque} deve seguir uma descrição diferente conforme o tipo, seguindo a tabela abaixo:
+## 🚀 Como Executar o Projeto
 
-se mago -> no ataque exibir (usou magia)
-se guerreiro -> no ataque exibir (usou espada)
-se monge -> no ataque exibir (usou artes marciais)
-se ninja -> no ataque exibir (usou shuriken)
+1. **Clone o Repositório**:
+   ```bash
+   git clone https://github.com/lyraleo23/desafio-escrevendo-classes-heroi.git
+   cd desafio-escrevendo-classes-heroi
+   ```
 
-## Saída
 
-Ao final deve se exibir uma mensagem:
+## 🧠 Conceitos Aplicados
 
-- "o {tipo} atacou usando {ataque}"
-  ex: mago atacou usando magia
-  guerreiro atacou usando espada
- 
-Bons estudos 😉
+- **Classes e Objetos**: Criação da classe `Heroi` com propriedades como nome, idade e tipo, e definição de métodos para interação.
+- **Estruturas de Decisão**: Implementação de lógica condicional para determinar o tipo de ataque baseado no tipo de herói.
+
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias ou correções.
+
+
+## 📞 Contato
+
+- **Autor**: Leonardo Lyra
+- **GitHub**: [lyraleo23](https://github.com/lyraleo23)
+- **LinkedIn**: [Leonardo Lyra](https://www.linkedin.com/in/leonardo-lyra/)
